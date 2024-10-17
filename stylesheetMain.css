@@ -100,7 +100,7 @@ a {
   background-position: -50px -3px;
 }
 a:hover {
-  color: #477bc4;
+  color: #db1a0f;
 }
 
 .vmiddle {
@@ -589,49 +589,49 @@ a:hover {
   margin-right: 0;
 }
 .secstorybox h2.cricket:before {
-  background: #1f70bf;
+  background: #db1a0f;
 }
 .secstorybox h2.sports:before {
-  background: #1f70bf;
+  background: #db1a0f;
 }
 .secstorybox h2.news:before {
-  background: #1f70bf;
+  background: #db1a0f;
 }
 .secstorybox h2.movies:before {
-  background: #1f70bf;
+  background: #db1a0f;
 }
 .secstorybox h2.business:before {
-  background: #1f70bf;
+  background: #db1a0f;
 }
 .secstorybox h2.getahead:before {
-  background: #1f70bf;
+  background: #db1a0f;
 }
 .cricket .morestory {
-  color: #1f70bf;
+  color: #db1a0f;
 }
 .sports .morestory {
-  color: #1f70bf;
+  color: #db1a0f;
 }
 .news .morestory {
-  color: #1f70bf;
+  color: #db1a0f;
 }
 .movies .morestory {
-  color: #1f70bf;
+  color: #db1a0f;
 }
 .getahead .morestory {
-  color: #1f70bf;
+  color: #db1a0f;
 }
 .business .morestory {
-  color: #1f70bf;
+  color: #db1a0f;
 }
 .editorschoice .morestory {
-  color: #1f70bf;
+  color: #db1a0f;
 }
 .trendnews .morestory {
-  color: #1f70bf;
+  color: #db1a0f;
 }
 .topstories .morestory {
-  color: #1f70bf;
+  color: #db1a0f;
 }
 
 .srchbar {
@@ -710,7 +710,7 @@ a:hover {
   color: #777;
 }
 .red_container h2 a:hover {
-  color: #477bc4;
+  color: #db1a0f;
 }
 .nbox:visited {
   color: #777;
