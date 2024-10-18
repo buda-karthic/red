@@ -57,7 +57,8 @@ a {
 .logobar,
 .srchbar,
 .navbar,
-.footer {
+.footer,
+.footer-note {
   width: 100%;
   max-width: 1110px;
   margin: 0 auto;
@@ -65,7 +66,7 @@ a {
 .nbox {
   float: left;
   height: auto;
-  width: 190px;
+  width: 196px;
   margin: 9px 32px 15px 0;
   overflow: hidden;
 }
@@ -374,7 +375,7 @@ a:hover {
 
 .secstorybox {
   float: left;
-  width: 410px;
+  width: 426px;
   height: 260px;
   overflow: hidden;
   margin: 0 32px 0 0;
@@ -383,7 +384,7 @@ a:hover {
   height: 270px;
 }
 .footer {
-  margin: 60px auto 0;
+  margin: 0 auto;
   padding: 10px 0 0 0;
   padding: 20px 0;
   font-family: "Roboto Condensed", sans-serif;
@@ -1122,4 +1123,15 @@ h2.time i {
   background: url(./Rediff/editor.svg) no-repeat left top 10px;
   padding-left: 34px;
   background-size: 23px auto;
+}
+
+.m-r-0 {
+  margin-right: 0;
+}
+
+footer {
+  background: #f0f0f0;
+  font-family: "Source Sans 3", sans-serif;
+  padding: 40px 0;
+  margin-top: 60px;
 }
