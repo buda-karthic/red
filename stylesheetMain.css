@@ -443,6 +443,9 @@ a:hover {
   overflow: hidden;
   margin-right: 32px;
 }
+.bigstory .more {
+  display: none;
+}
 .div_advt_right {
   height: 290px;
 }
@@ -450,7 +453,8 @@ a:hover {
 }
 
 .more span,
-.more a {
+.more a,
+.sub-navbar__container .sub-navbar > a {
   color: #9a9a9a;
   text-transform: uppercase;
   font-family: "Roboto Condensed", sans-serif;
@@ -855,6 +859,9 @@ h2.time i {
     margin-right: 8px;
     width: 190px;
   }
+  .nbox .more {
+    display: none;
+  }
   .firstrow,
   .red_container,
   .logobar,
@@ -1024,7 +1031,7 @@ h2.time i {
   padding-left: 34px;
 }
 
-.backnews.news {
+*:has(.backnews.news) ~ .hdtitle {
   background: url(./Rediff/news-s.svg) no-repeat left top 0px;
   padding-left: 28px;
   background-size: 22px auto;
@@ -1036,7 +1043,8 @@ h2.time i {
   background-size: 26px auto;
 }
 
-.backcricket.cricket {
+*:has(.backcricket.cricket) ~ .hdtitle,
+.sub-navbar a.cricket {
   background: url(./Rediff/cricket-s.svg) no-repeat left top 0px;
   padding-left: 28px;
   background-size: 22px auto;
@@ -1047,7 +1055,8 @@ h2.time i {
   padding-left: 34px;
 }
 
-.backmovies.movies {
+*:has(.backmovies.movies) ~ .hdtitle,
+.sub-navbar a.movies {
   background: url(./Rediff/movies-s.svg) no-repeat left top 0px;
   padding-left: 28px;
   background-size: 22px auto;
@@ -1059,7 +1068,8 @@ h2.time i {
   background-size: 26px auto;
 }
 
-.backbusiness.business {
+*:has(.backbusiness.business) ~ .hdtitle,
+.sub-navbar a.business {
   background: url(./Rediff/business-s.svg) no-repeat left top -3px;
   padding-left: 28px;
   background-size: 22px auto;
@@ -1071,7 +1081,8 @@ h2.time i {
   background-size: 26px auto;
 }
 
-.backgetahead.getahead {
+*:has(.backgetahead.getahead) ~ .hdtitle,
+.sub-navbar a.getahead {
   background: url(./Rediff/getahead-s.svg) no-repeat left top -2px;
   padding-left: 28px;
   background-size: 22px auto;
@@ -1083,37 +1094,41 @@ h2.time i {
   background-size: 26px auto;
 }
 
-.backsports.sports {
+*:has(.backsports.sports) ~ .hdtitle,
+.sub-navbar a.sports {
   background: url(./Rediff/sport-s.svg) no-repeat left top -2px;
   padding-left: 28px;
   background-size: 22px auto;
 }
 
-.backvid.vid {
+*:has(.backvid.vid) ~ .hdtitle,
+.sub-navbar a.videos {
   background: url(./Rediff/video-s.svg) no-repeat left top -2px;
   padding-left: 28px;
   background-size: 22px auto;
 }
 
 .sub-section-heading.gurus {
-  background: url(./Rediff/gurus.svg) no-repeat left top 12px;
-  padding-left: 34px;
-  background-size: 26px auto;
+  background: url(./Rediff/gurus.png) no-repeat left top 12px;
+  padding-left: 26px;
+  background-size: 18px auto;
 }
 
-.backgurus.gurus {
-  background: url(./Rediff/gurus-s.svg) no-repeat left top -1px;
-  padding-left: 28px;
-  background-size: 22px auto;
+*:has(.backgurus.gurus) ~ .hdtitle {
+  background: url(./Rediff/gurus-s.png) no-repeat left top 0;
+  padding-left: 23px;
+  background-size: 16px auto;
 }
 
-.backmarketnews.marketnews {
+*:has(.backmarketnews.marketnews) ~ .hdtitle,
+.sub-navbar a.marketnews {
   background: url(./Rediff/market-s.svg) no-repeat left top -1px;
   padding-left: 28px;
   background-size: 22px auto;
 }
 
-.backshop.travel {
+*:has(.backshop.travel) ~ .hdtitle,
+.sub-navbar a.travel {
   background: url(./Rediff/travel-s.svg) no-repeat left top -1px;
   padding-left: 28px;
   background-size: 22px auto;
@@ -1140,7 +1155,7 @@ footer {
   .red_container_main,
   footer,
   .footer-wrapper {
-    padding: 0 10px;
+    padding-inline: 10px;
   }
   .add-flex {
     flex-direction: column;
@@ -1182,7 +1197,70 @@ footer {
   .nbox h5 img {
     height: auto;
   }
-  .section-line:before {
+  .section-line:before,
+  .section-line-bottom:after {
     content: none;
   }
+  .hdtitle {
+    height: 3.8em;
+  }
+  .footer {
+    padding-block: 20px;
+  }
+}
+
+.sub-navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  gap: 60px;
+  margin-top: 32px;
+  border-top: 1px solid #000;
+  padding-top: 10px;
+}
+
+.sub-navbar a {
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  color: #000;
+  padding-bottom: 8px;
+}
+
+.sub-navbar a:hover {
+  border-bottom: 6px solid #000;
+}
+
+.sub-navbar a.active {
+  border-bottom: 6px solid #000;
+}
+
+/* Content Styles */
+.content {
+  margin-top: 20px;
+}
+
+.videos {
+  display: none;
+}
+
+.videos.active {
+  display: flex;
+}
+
+.video-item {
+  margin: 10px 0;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sub-navbar__container {
+  h1 {
+    font-size: 34px;
+    font-weight: 600;
+  }
+}
+
+.sub-navbar__container .nbox .more {
+  display: none;
 }

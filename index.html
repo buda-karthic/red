@@ -149,19 +149,19 @@
       }
       .backgurus.gurus {
         position: relative;
+        display: block;
       }
       .backgurus.gurus::after {
-    content: "Trending";
+    content: "";
     position: absolute;
     color: #db0606;
-    font-size: 12px;
-    height: 12px;
-    line-height: 10px;
-    right: -79px;
+    right: 0;
     font-weight: 700;
     cursor: default;
-    top: 6px;
-    letter-spacing: .5px;
+    top: -10px;
+    background: url(./Rediff/trending.svg) no-repeat;
+    aspect-ratio: 4/5;
+    height: 40px;
 }
       .secstorybox.rediffgurus h3 {
         border-bottom: solid 2px #db1a0f;
@@ -801,7 +801,7 @@
               >Now in हिन्दी too</a
             >
           </h3>
-        <div class="secstorybox rediffgurus source-sans-3-400 color-414141 section-line-bottom">
+        <div class="secstorybox rediffgurus source-sans-3-400 color-414141">
 
           <i class="clear"></i>
           <h2 data-boxno="2_1-2_1" data-track="">
@@ -848,7 +848,7 @@
             >
           </p>
         </div>
-        <div class="nbox section-line section-line-bottom" data-boxno="2_3" data-track="">
+        <div class="nbox section-line " data-boxno="2_3" data-track="">
           <p class="more">
             <a
               class="backgurus gurus"
@@ -884,7 +884,7 @@
             >
           </h2>
         </div>
-        <div class="nbox section-line section-line-bottom" data-boxno="2_4" data-track="">
+        <div class="nbox section-line " data-boxno="2_4" data-track="">
           <p class="more">
             <a
               class="backgurus gurus"
@@ -920,7 +920,7 @@
             >
           </h2>
         </div>
-        <div class="nbox section-line section-line-bottom m-r-0" data-boxno="2_5" data-track="">
+        <div class="nbox section-line  m-r-0" data-boxno="2_5" data-track="">
           <p class="more">
             <a
               class="backgurus gurus"
@@ -958,7 +958,27 @@
         </div>
         <i class="clear"></i>
       </div>
-      <div class="nbox section-line-bottom" data-boxno="3_1" data-track="">
+
+<!--Tab Section starts-->
+
+<div class="sub-navbar__container">
+
+
+  <div class="sub-navbar">
+    <a href="#" onclick="showSection(event, 'cricket')" class="active cricket">Cricket</a>
+    <a href="#" onclick="showSection(event, 'market')" class="marketnews">Market News</a>
+    <a href="#" onclick="showSection(event, 'movies')" class="movies">Movies </a>
+    <a href="#" onclick="showSection(event, 'videos-clips')" class="videos">Videos </a>
+    <a href="#" onclick="showSection(event, 'getahead')" class="getahead">Get A Head </a>
+    <a href="#" onclick="showSection(event, 'business')" class="business">BUSINESS </a>
+    <a href="#" onclick="showSection(event, 'travel')" class="travel">Travel </a>
+    <a href="#" onclick="showSection(event, 'sports')" class="sports">sports </a>
+  </div>
+
+  <!-- Content Section -->
+  <div class="content">
+    <div id="cricket" class="videos active">
+      <div class="nbox" data-boxno="3_1" data-track="">
         <p class="more">
           <a
             onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/cricket___&amp;position=3_1_L&amp;label=edit_cricket&amp;c_type=edit_cricket&amp;property=hp_in_pc&#39;);return false;"
@@ -994,7 +1014,258 @@
           >
         </h2>
       </div>
-      <div class="nbox section-line section-line-bottom" data-boxno="3_2" data-track="">
+      <div class="nbox section-line" data-boxno="3_4" data-track="">
+        <p class="more">
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/cricket___&amp;position=3_4_L&amp;label=edit_cricket&amp;c_type=edit_cricket&amp;property=hp_in_pc&#39;);return false;"
+            class="backcricket cricket"
+            href="https://www.rediff.com/cricket"
+            >cricket</a
+          >
+        </p>
+        <h5>
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fdhonis-ipl-2025-auction-new-look%2F20241014.htm___&amp;position=3_4_I&amp;label=edit_cricket&amp;c_type=edit_cricket&amp;property=hp_in_pc&#39;);return false;"
+            data-relsrc="//im.rediff.com/210-170/cricket/2024/oct/12dhoni1.jpg"
+            class="img"
+            href="https://www.rediff.com/cricket/report/dhonis-ipl-2025-auction-new-look/20241014.htm"
+            ><img
+              alt="Dhoni&#39;s IPL 2025 Auction New Look"
+              src="./Rediff/12dhoni1.jpg"
+              width="196"
+              height="170"
+              style="opacity: 0.999"
+          /></a>
+        </h5>
+        <div class="story-date-time roboto-condensed add-flex gap-15">
+          <div class="story-date" title="02 Jan, 2019 00:00:00">
+          1 years ago    </div>
+          <div class="story-time">
+          1 min read    </div>    </div>
+        <h2 class="hdtitle">
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fdhonis-ipl-2025-auction-new-look%2F20241014.htm___&amp;position=3_4_T&amp;label=edit_cricket&amp;c_type=edit_cricket&amp;property=hp_in_pc&#39;);return false;"
+            href="https://www.rediff.com/cricket/report/dhonis-ipl-2025-auction-new-look/20241014.htm"
+            >Dhoni's IPL 2025 Auction New Look</a
+          >
+        </h2>
+      </div>
+      <div class="nbox section-line" data-boxno="4_4" data-track="">
+        <p class="more">
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/cricket___&amp;position=4_4_L&amp;label=edit_cricket&amp;c_type=edit_cricket&amp;property=hp_in_pc&#39;);return false;"
+            class="backcricket cricket"
+            href="https://www.rediff.com/cricket"
+            >cricket</a
+          >
+        </p>
+        <h5>
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fbgt-2024-25-steve-smith-back-at-no-4-for-india-test-series%2F20241014.htm___&amp;position=4_4_I&amp;label=edit_cricket&amp;c_type=edit_cricket&amp;property=hp_in_pc&#39;);return false;"
+            data-relsrc="//im.rediff.com/210-170/cricket/2024/oct/14smith1.jpg"
+            class="img"
+            href="https://www.rediff.com/cricket/report/bgt-2024-25-steve-smith-back-at-no-4-for-india-test-series/20241014.htm"
+            ><img
+              alt="Steve Smith back at No 4 for India Tests"
+              src="./Rediff/14smith1.jpg"
+              width="196"
+              height="170"
+              style="opacity: 0.999"
+          /></a>
+        </h5>
+        <div class="story-date-time roboto-condensed add-flex gap-15">
+          <div class="story-date" title="02 Jan, 2019 00:00:00">
+          1 years ago    </div>
+          <div class="story-time">
+          1 min read    </div>    </div>
+        <h2 class="hdtitle">
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fbgt-2024-25-steve-smith-back-at-no-4-for-india-test-series%2F20241014.htm___&amp;position=4_4_T&amp;label=edit_cricket&amp;c_type=edit_cricket&amp;property=hp_in_pc&#39;);return false;"
+            href="https://www.rediff.com/cricket/report/bgt-2024-25-steve-smith-back-at-no-4-for-india-test-series/20241014.htm"
+            >Steve Smith back at No 4 for India Tests</a
+          >
+        </h2>
+      </div>
+   
+     
+    </div>
+
+    <div id="market" class="videos">
+      <div class="nbox " data-boxno="6_1" data-track="">
+        <p class="more">
+          <a
+            class="backmarketnews marketnews"
+            href="https://money.rediff.com/news/share-market-news"
+            onclick="clickTrack(this);return false;"
+            >Market News</a
+          >
+        </p>
+        <h5>
+          <a
+            href="https://money.rediff.com/news/market/bengaluru-airport-city-launches-2-million-sq-ft-business-park/17068820241014"
+            onclick="clickTrack(this);return false;"
+            ><img
+              alt="Bengaluru Airport City Launches 2"
+              src="./Rediff/18airport7.jpg"
+              loading="lazy"
+              width="196"
+              height="170"
+          /></a>
+        </h5>
+        <div class="story-date-time roboto-condensed add-flex gap-15">
+          <div class="story-date" title="02 Jan, 2019 00:00:00">
+          1 years ago    </div>
+          <div class="story-time">
+          1 min read    </div>    </div>
+        <h2 class="hdtitle">
+          <a
+            href="https://money.rediff.com/news/market/bengaluru-airport-city-launches-2-million-sq-ft-business-park/17068820241014"
+            onclick="clickTrack(this);return false;"
+            >Bengaluru Airport City Launches 2 Million Sq. Ft. Business Park</a
+          >
+        </h2>
+      </div>
+      <div class="nbox section-line " data-boxno="6_2" data-track="">
+        <p class="more">
+          <a
+            class="backmarketnews marketnews"
+            href="https://money.rediff.com/news/share-market-news"
+            onclick="clickTrack(this);return false;"
+            >Market News</a
+          >
+        </p>
+        <h5>
+          <a
+            href="https://money.rediff.com/news/market/ratan-tata-a-leader-who-cared-for-employees-amp-dogs-n-chandrasekaran/17066520241014"
+            onclick="clickTrack(this);return false;"
+            ><img
+              alt="Ratan Tata: A Leader Who Cared for"
+              src="./Rediff/29bombay-house7.jpg"
+              
+              width="196"
+              height="170"
+          /></a>
+        </h5>
+        <div class="story-date-time roboto-condensed add-flex gap-15">
+          <div class="story-date" title="02 Jan, 2019 00:00:00">
+          1 years ago    </div>
+          <div class="story-time">
+          1 min read    </div>    </div>
+        <h2 class="hdtitle">
+          <a
+            href="https://money.rediff.com/news/market/ratan-tata-a-leader-who-cared-for-employees-amp-dogs-n-chandrasekaran/17066520241014"
+            onclick="clickTrack(this);return false;"
+            >Ratan Tata: A Leader Who Cared for Employees &amp;&amp;amp; Dogs -
+            N Chandrasekaran</a
+          >
+        </h2>
+      </div>
+      <div class="nbox section-line " data-boxno="6_3" data-track="">
+        <p class="more">
+          <a
+            class="backmarketnews marketnews"
+            href="https://money.rediff.com/news/share-market-news"
+            onclick="clickTrack(this);return false;"
+            >Market News</a
+          >
+        </p>
+        <h5>
+          <a
+            href="https://money.rediff.com/news/market/d-mart-stock-plunges-9-after-disappointing-earnings/17065520241014"
+            onclick="clickTrack(this);return false;"
+            ><img
+              alt="D-Mart Stock Plunges 9% After"
+              src="./Rediff/22dmart.jpg"
+              
+              width="196"
+              height="170"
+          /></a>
+        </h5>
+        <div class="story-date-time roboto-condensed add-flex gap-15">
+          <div class="story-date" title="02 Jan, 2019 00:00:00">
+          1 years ago    </div>
+          <div class="story-time">
+          1 min read    </div>    </div>
+        <h2 class="hdtitle">
+          <a
+            href="https://money.rediff.com/news/market/d-mart-stock-plunges-9-after-disappointing-earnings/17065520241014"
+            onclick="clickTrack(this);return false;"
+            >D-Mart Stock Plunges 9% After Disappointing Earnings</a
+          >
+        </h2>
+      </div>
+      <div class="nbox section-line " data-boxno="6_4" data-track="">
+        <p class="more">
+          <a
+            class="backmarketnews marketnews"
+            href="https://money.rediff.com/news/share-market-news"
+            onclick="clickTrack(this);return false;"
+            >Market News</a
+          >
+        </p>
+        <h5>
+          <a
+            href="https://money.rediff.com/news/market/ai-regulation-scindia-calls-for-ethical-robust-framework/17065320241014"
+            onclick="clickTrack(this);return false;"
+            ><img
+              alt="AI Regulation: Scindia Calls for Ethical"
+              src="./Rediff/15jyotiraditya-scindia.jpg"
+              loading="lazy"
+              width="196"
+              height="170"
+          /></a>
+        </h5>
+        <div class="story-date-time roboto-condensed add-flex gap-15">
+          <div class="story-date" title="02 Jan, 2019 00:00:00">
+          1 years ago    </div>
+          <div class="story-time">
+          1 min read    </div>    </div>
+        <h2 class="hdtitle">
+          <a
+            href="https://money.rediff.com/news/market/ai-regulation-scindia-calls-for-ethical-robust-framework/17065320241014"
+            onclick="clickTrack(this);return false;"
+            >AI Regulation: Scindia Calls for Ethical &amp; Robust Framework</a
+          >
+        </h2>
+      </div>
+      <div class="nbox section-line  m-r-0" data-boxno="6_5" data-track="">
+        <p class="more">
+          <a
+            class="backmarketnews marketnews"
+            href="https://money.rediff.com/news/share-market-news"
+            onclick="clickTrack(this);return false;"
+            >Market News</a
+          >
+        </p>
+        <h5>
+          <a
+            href="https://money.rediff.com/news/market/sensex-nifty-rise-on-positive-global-trends-pti/17064820241014"
+            onclick="clickTrack(this);return false;"
+            ><img
+              alt="Sensex, Nifty Rise on Positive Global"
+              src="./Rediff/27bse4.jpg"
+              loading="lazy"
+              width="196"
+              height="170"
+          /></a>
+        </h5>
+        <div class="story-date-time roboto-condensed add-flex gap-15">
+          <div class="story-date" title="02 Jan, 2019 00:00:00">
+          1 years ago    </div>
+          <div class="story-time">
+          1 min read    </div>    </div>
+        <h2 class="hdtitle">
+          <a
+            href="https://money.rediff.com/news/market/sensex-nifty-rise-on-positive-global-trends-pti/17064820241014"
+            onclick="clickTrack(this);return false;"
+            >Sensex, Nifty Rise on Positive Global Trends - PTI</a
+          >
+        </h2>
+      </div>
+    </div>
+
+    <div id="movies" class="videos">
+      <div class="nbox" data-boxno="3_2" data-track="">
         <p class="more">
           <a
             onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/movies___&amp;position=3_2_L&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
@@ -1033,7 +1304,152 @@
           >
         </h2>
       </div>
-      <div class="nbox section-line section-line-bottom" data-boxno="3_3" data-track="">
+      <div class="nbox section-line" data-boxno="3_5" data-track="">
+        <p class="more">
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/movies___&amp;position=3_5_L&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
+            class="backmovies movies"
+            href="https://www.rediff.com/movies"
+            >movies</a
+          >
+        </p>
+        <h5>
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fvicky-vidya-ka-woh-wala-video-scores-over-jigra%2F20241014.htm___&amp;position=3_5_I&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
+            data-relsrc="//im.rediff.com/210-170/movies/2024/oct/14bo-lead1.jpg"
+            class="img"
+            href="https://www.rediff.com/movies/report/vicky-vidya-ka-woh-wala-video-scores-over-jigra/20241014.htm"
+            ><img
+              alt="VVKWWVideo Scores Over Jigra"
+              src="./Rediff/14bo-lead1.jpg"
+              width="196"
+              height="170"
+              style="opacity: 0.999"
+          /></a>
+        </h5>          <div class="story-date-time roboto-condensed add-flex gap-15">
+          <div class="story-date" title="02 Jan, 2019 00:00:00">
+          1 years ago    </div>
+          <div class="story-time">
+          1 min read    </div>    </div>
+        <h2 class="hdtitle">
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fvicky-vidya-ka-woh-wala-video-scores-over-jigra%2F20241014.htm___&amp;position=3_5_T&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
+            href="https://www.rediff.com/movies/report/vicky-vidya-ka-woh-wala-video-scores-over-jigra/20241014.htm"
+            >Hrithik Roshan’s Reaction To Working With Aamir</a
+          >
+        </h2>
+      </div>
+      <div class="nbox section-line " data-boxno="4_2" data-track="">
+        <p class="more">
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/movies___&amp;position=4_2_L&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
+            class="backmovies movies"
+            href="https://www.rediff.com/movies"
+            >movies</a
+          >
+        </p>
+        <h5>
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fcan-you-pout-like-janhvi%2F20241014.htm___&amp;position=4_2_I&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
+            data-relsrc="//im.rediff.com/210-170/movies/2024/oct/11weekend-lead1.jpg"
+            class="img"
+            href="https://www.rediff.com/movies/report/can-you-pout-like-janhvi/20241014.htm"
+            ><img
+              alt="Can You Pout Like Janhvi?"
+              src="./Rediff/11weekend-lead1.jpg"
+              width="196"
+              height="170"
+              style="opacity: 0.999"
+          /></a>
+        </h5>
+        <div class="story-date-time roboto-condensed add-flex gap-15">
+          <div class="story-date" title="02 Jan, 2019 00:00:00">
+          1 years ago    </div>
+          <div class="story-time">
+          1 min read    </div>    </div>
+        <h2 class="hdtitle">
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fcan-you-pout-like-janhvi%2F20241014.htm___&amp;position=4_2_T&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
+            href="https://www.rediff.com/movies/report/can-you-pout-like-janhvi/20241014.htm"
+            >Can You Pout Like Janhvi?</a
+          >
+        </h2>
+      </div>
+      <div class="nbox section-line " data-boxno="5_4" data-track="">
+        <p class="more">
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/movies___&amp;position=5_4_L&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
+            class="backmovies movies"
+            href="https://www.rediff.com/movies"
+            >movies</a
+          >
+        </p>
+        <h5>
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fbollywood-looks-dishy-on-dussehra%2F20241014.htm___&amp;position=5_4_I&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
+            data-relsrc="//im.rediff.com/210-170/movies/2024/oct/13dussehra-fashion-lead3.jpg"
+            class="img"
+            href="https://www.rediff.com/movies/report/bollywood-looks-dishy-on-dussehra/20241014.htm"
+            ><img
+              alt="Bollywood Looks Dishy On Dussehra"
+              src="./Rediff/13dussehra-fashion-lead3.jpg"
+              width="196"
+              height="170"
+              style="opacity: 0.999"
+          /></a>
+        </h5>
+        <div class="story-date-time roboto-condensed add-flex gap-15">
+          <div class="story-date" title="02 Jan, 2019 00:00:00">
+          1 years ago    </div>
+          <div class="story-time">
+          1 min read    </div>    </div>
+        <h2 class="hdtitle">
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fbollywood-looks-dishy-on-dussehra%2F20241014.htm___&amp;position=5_4_T&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
+            href="https://www.rediff.com/movies/report/bollywood-looks-dishy-on-dussehra/20241014.htm"
+            >Bollywood Looks Dishy On Dussehra</a
+          >
+        </h2>
+      </div>
+      <div class="nbox section-line m-r-0" data-boxno="7_3" data-track="">
+        <p class="more">
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/movies___&amp;position=7_3_L&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
+            class="backmovies movies"
+            href="https://www.rediff.com/movies"
+            >movies</a
+          >
+        </p>
+        <h5>
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Frani-kajols-beautiful-sindoor-khela%2F20241014.htm___&amp;position=7_3_I&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
+            data-relsrc="//im.rediff.com/210-170/movies/2024/oct/12durga-puja-sindoor-khela-lead2.jpg"
+            class="img"
+            href="https://www.rediff.com/movies/report/rani-kajols-beautiful-sindoor-khela/20241014.htm"
+            ><img
+              alt="Rani-Kajol&#39;s Beautiful Sindoor Khela"
+              src="./Rediff/12durga-puja-sindoor-khela-lead2.jpg"
+              width="196"
+              height="170"
+              style="opacity: 0.999"
+          /></a>
+        </h5>
+        <div class="story-date-time roboto-condensed add-flex gap-15">
+          <div class="story-date" title="02 Jan, 2019 00:00:00">
+          1 years ago    </div>
+          <div class="story-time">
+          1 min read    </div>    </div>
+        <h2 class="hdtitle">
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Frani-kajols-beautiful-sindoor-khela%2F20241014.htm___&amp;position=7_3_T&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
+            href="https://www.rediff.com/movies/report/rani-kajols-beautiful-sindoor-khela/20241014.htm"
+            >Bougainvillea Movie Review</a
+          >
+        </h2>
+      </div>
+    </div>
+    <div id="videos-clips" class="videos">
+      <div class="nbox" data-boxno="3_3" data-track="">
         <p class="more">
           <a
             href="https://ishare.rediff.com/"
@@ -1070,151 +1486,7 @@
           >
         </h2>
       </div>
-      <div class="nbox section-line section-line-bottom" data-boxno="3_4" data-track="">
-        <p class="more">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/cricket___&amp;position=3_4_L&amp;label=edit_cricket&amp;c_type=edit_cricket&amp;property=hp_in_pc&#39;);return false;"
-            class="backcricket cricket"
-            href="https://www.rediff.com/cricket"
-            >cricket</a
-          >
-        </p>
-        <h5>
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fdhonis-ipl-2025-auction-new-look%2F20241014.htm___&amp;position=3_4_I&amp;label=edit_cricket&amp;c_type=edit_cricket&amp;property=hp_in_pc&#39;);return false;"
-            data-relsrc="//im.rediff.com/210-170/cricket/2024/oct/12dhoni1.jpg"
-            class="img"
-            href="https://www.rediff.com/cricket/report/dhonis-ipl-2025-auction-new-look/20241014.htm"
-            ><img
-              alt="Dhoni&#39;s IPL 2025 Auction New Look"
-              src="./Rediff/12dhoni1.jpg"
-              width="196"
-              height="170"
-              style="opacity: 0.999"
-          /></a>
-        </h5>
-        <div class="story-date-time roboto-condensed add-flex gap-15">
-          <div class="story-date" title="02 Jan, 2019 00:00:00">
-          1 years ago    </div>
-          <div class="story-time">
-          1 min read    </div>    </div>
-        <h2 class="hdtitle">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fdhonis-ipl-2025-auction-new-look%2F20241014.htm___&amp;position=3_4_T&amp;label=edit_cricket&amp;c_type=edit_cricket&amp;property=hp_in_pc&#39;);return false;"
-            href="https://www.rediff.com/cricket/report/dhonis-ipl-2025-auction-new-look/20241014.htm"
-            >Dhoni's IPL 2025 Auction New Look</a
-          >
-        </h2>
-      </div>
-      <div class="nbox section-line section-line-bottom m-r-0" data-boxno="3_5" data-track="">
-        <p class="more">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/movies___&amp;position=3_5_L&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
-            class="backmovies movies"
-            href="https://www.rediff.com/movies"
-            >movies</a
-          >
-        </p>
-        <h5>
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fvicky-vidya-ka-woh-wala-video-scores-over-jigra%2F20241014.htm___&amp;position=3_5_I&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
-            data-relsrc="//im.rediff.com/210-170/movies/2024/oct/14bo-lead1.jpg"
-            class="img"
-            href="https://www.rediff.com/movies/report/vicky-vidya-ka-woh-wala-video-scores-over-jigra/20241014.htm"
-            ><img
-              alt="VVKWWVideo Scores Over Jigra"
-              src="./Rediff/14bo-lead1.jpg"
-              width="196"
-              height="170"
-              style="opacity: 0.999"
-          /></a>
-        </h5>          <div class="story-date-time roboto-condensed add-flex gap-15">
-          <div class="story-date" title="02 Jan, 2019 00:00:00">
-          1 years ago    </div>
-          <div class="story-time">
-          1 min read    </div>    </div>
-        <h2 class="hdtitle">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fvicky-vidya-ka-woh-wala-video-scores-over-jigra%2F20241014.htm___&amp;position=3_5_T&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
-            href="https://www.rediff.com/movies/report/vicky-vidya-ka-woh-wala-video-scores-over-jigra/20241014.htm"
-            >Hrithik Roshan’s Reaction To Working With Aamir</a
-          >
-        </h2>
-      </div>
-
-      <div class="nbox section-line-bottom" data-boxno="4_1" data-track="">
-        <p class="more">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/getahead___&amp;position=4_1_L&amp;label=edit_getahead&amp;c_type=edit_getahead&amp;property=hp_in_pc&#39;);return false;"
-            class="backgetahead getahead"
-            href="https://www.rediff.com/getahead"
-            >get ahead</a
-          >
-        </p>
-        <h5>
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fwhy-you-need-personal-accident-cover%2F20241014.htm___&amp;position=4_1_I&amp;label=edit_getahead&amp;c_type=edit_getahead&amp;property=hp_in_pc&#39;);return false;"
-            data-relsrc="//im.rediff.com/210-170/getahead/2024/oct/08personal-accident-cover1.jpg"
-            class="img"
-            href="https://www.rediff.com/getahead/report/why-you-need-personal-accident-cover/20241014.htm"
-            ><img
-              alt="Why You Need Personal Accident Cover"
-              src="./Rediff/08personal-accident-cover1.jpg"
-              width="196"
-              height="170"
-              style="opacity: 0.999"
-          /></a>
-        </h5>
-        <div class="story-date-time roboto-condensed add-flex gap-15">
-          <div class="story-date" title="02 Jan, 2019 00:00:00">
-          1 years ago    </div>
-          <div class="story-time">
-          1 min read    </div>    </div>
-        <h2 class="hdtitle">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fwhy-you-need-personal-accident-cover%2F20241014.htm___&amp;position=4_1_T&amp;label=edit_getahead&amp;c_type=edit_getahead&amp;property=hp_in_pc&#39;);return false;"
-            href="https://www.rediff.com/getahead/report/why-you-need-personal-accident-cover/20241014.htm"
-            >Why You Need Personal Accident Cover</a
-          >
-        </h2>
-      </div>
-      <div class="nbox section-line section-line-bottom" data-boxno="4_2" data-track="">
-        <p class="more">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/movies___&amp;position=4_2_L&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
-            class="backmovies movies"
-            href="https://www.rediff.com/movies"
-            >movies</a
-          >
-        </p>
-        <h5>
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fcan-you-pout-like-janhvi%2F20241014.htm___&amp;position=4_2_I&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
-            data-relsrc="//im.rediff.com/210-170/movies/2024/oct/11weekend-lead1.jpg"
-            class="img"
-            href="https://www.rediff.com/movies/report/can-you-pout-like-janhvi/20241014.htm"
-            ><img
-              alt="Can You Pout Like Janhvi?"
-              src="./Rediff/11weekend-lead1.jpg"
-              width="196"
-              height="170"
-              style="opacity: 0.999"
-          /></a>
-        </h5>
-        <div class="story-date-time roboto-condensed add-flex gap-15">
-          <div class="story-date" title="02 Jan, 2019 00:00:00">
-          1 years ago    </div>
-          <div class="story-time">
-          1 min read    </div>    </div>
-        <h2 class="hdtitle">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fcan-you-pout-like-janhvi%2F20241014.htm___&amp;position=4_2_T&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
-            href="https://www.rediff.com/movies/report/can-you-pout-like-janhvi/20241014.htm"
-            >Can You Pout Like Janhvi?</a
-          >
-        </h2>
-      </div>
-      <div class="nbox section-line section-line-bottom" data-boxno="4_3" data-track="">
+      <div class="nbox section-line " data-boxno="4_3" data-track="">
         <p class="more">
           <a
             href="https://ishare.rediff.com/"
@@ -1252,85 +1524,7 @@
           >
         </h2>
       </div>
-      <div class="nbox section-line section-line-bottom" data-boxno="4_4" data-track="">
-        <p class="more">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/cricket___&amp;position=4_4_L&amp;label=edit_cricket&amp;c_type=edit_cricket&amp;property=hp_in_pc&#39;);return false;"
-            class="backcricket cricket"
-            href="https://www.rediff.com/cricket"
-            >cricket</a
-          >
-        </p>
-        <h5>
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fbgt-2024-25-steve-smith-back-at-no-4-for-india-test-series%2F20241014.htm___&amp;position=4_4_I&amp;label=edit_cricket&amp;c_type=edit_cricket&amp;property=hp_in_pc&#39;);return false;"
-            data-relsrc="//im.rediff.com/210-170/cricket/2024/oct/14smith1.jpg"
-            class="img"
-            href="https://www.rediff.com/cricket/report/bgt-2024-25-steve-smith-back-at-no-4-for-india-test-series/20241014.htm"
-            ><img
-              alt="Steve Smith back at No 4 for India Tests"
-              src="./Rediff/14smith1.jpg"
-              width="196"
-              height="170"
-              style="opacity: 0.999"
-          /></a>
-        </h5>
-        <div class="story-date-time roboto-condensed add-flex gap-15">
-          <div class="story-date" title="02 Jan, 2019 00:00:00">
-          1 years ago    </div>
-          <div class="story-time">
-          1 min read    </div>    </div>
-        <h2 class="hdtitle">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fbgt-2024-25-steve-smith-back-at-no-4-for-india-test-series%2F20241014.htm___&amp;position=4_4_T&amp;label=edit_cricket&amp;c_type=edit_cricket&amp;property=hp_in_pc&#39;);return false;"
-            href="https://www.rediff.com/cricket/report/bgt-2024-25-steve-smith-back-at-no-4-for-india-test-series/20241014.htm"
-            >Steve Smith back at No 4 for India Tests</a
-          >
-        </h2>
-      </div>
-      <div 
-        id="native_0"
-        class="nbox hide section-line section-line-bottom m-r-0"
-        data-boxno="4_5"
-        data-track=""
-        style="display: block"
-      >
-        <p class="more">
-          <a
-            href="https://shopping.rediff.com/shopping/travel.html"
-            class="backshop travel"
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://shopping.rediff.com/shopping/travel.html?sc_cid=inhome_cls_travel-products_4_5_L___&amp;position=4_5_L&amp;label=travel-products&amp;c_type=shopping&amp;c_id=&amp;meta=&amp;property=hp_in_pc&#39;);return false;"
-            >TRAVEL PRODUCTS</a
-          >
-        </p>
-        <h5>
-          <a
-            href="https://shopping.rediff.com/shopping/travel.html"
-            class="img"
-            data-relsrc="https://imshopping.rediff.com/hourlydeal/img/image_210X170_travel.jpg"
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://shopping.rediff.com/shopping/travel.html?sc_cid=inhome_cls_travel-products_4_5_I___&amp;position=4_5_I&amp;label=travel-products&amp;c_type=shopping&amp;c_id=&amp;meta=&amp;property=hp_in_pc&#39;);return false;"
-            ><img
-              alt="TRAVEL PRODUCTS"
-              src="./Rediff/image_210X170_travel.jpg"
-              style="max-width: 210px; opacity: 0.999"
-          /></a>
-        </h5>
-        <div class="story-date-time roboto-condensed add-flex gap-15">
-          <div class="story-date" title="02 Jan, 2019 00:00:00">
-          1 years ago    </div>
-          <div class="story-time">
-          1 min read    </div>    </div>
-        <h2 class="hdtitle">
-          <a
-            href="https://shopping.rediff.com/shopping/travel.html"
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://shopping.rediff.com/shopping/travel.html?sc_cid=inhome_cls_travel-products_4_5_T___&amp;position=4_5_T&amp;label=travel-products&amp;c_type=shopping&amp;c_id=&amp;meta=&amp;property=hp_in_pc&#39;);return false;"
-            >Live your dreams. Discover new places.</a
-          >
-        </h2>
-      </div>
-      <i class="clear"></i>
-
-      <div class="nbox section-line-bottom" data-boxno="5_1" data-track="">
+      <div class="nbox section-line " data-boxno="5_1" data-track="">
         <p class="more">
           <a
             href="https://ishare.rediff.com/"
@@ -1368,7 +1562,7 @@
           >
         </h2>
       </div>
-      <div class="nbox section-line section-line-bottom" data-boxno="5_2" data-track="">
+      <div class="nbox section-line " data-boxno="5_2" data-track="">
         <p class="more">
           <a
             href="https://ishare.rediff.com/"
@@ -1405,7 +1599,7 @@
           >
         </h2>
       </div>
-      <div class="nbox section-line section-line-bottom" data-boxno="5_3" data-track="">
+      <div class="nbox section-line m-r-0 " data-boxno="5_3" data-track="">
         <p class="more">
           <a
             href="https://ishare.rediff.com/"
@@ -1442,24 +1636,26 @@
           >
         </h2>
       </div>
-      <div class="nbox section-line section-line-bottom" data-boxno="5_4" data-track="">
+    </div>
+    <div id="getahead" class="videos">
+      <div class="nbox " data-boxno="4_1" data-track="">
         <p class="more">
           <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/movies___&amp;position=5_4_L&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
-            class="backmovies movies"
-            href="https://www.rediff.com/movies"
-            >movies</a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/getahead___&amp;position=4_1_L&amp;label=edit_getahead&amp;c_type=edit_getahead&amp;property=hp_in_pc&#39;);return false;"
+            class="backgetahead getahead"
+            href="https://www.rediff.com/getahead"
+            >get ahead</a
           >
         </p>
         <h5>
           <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fbollywood-looks-dishy-on-dussehra%2F20241014.htm___&amp;position=5_4_I&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
-            data-relsrc="//im.rediff.com/210-170/movies/2024/oct/13dussehra-fashion-lead3.jpg"
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fwhy-you-need-personal-accident-cover%2F20241014.htm___&amp;position=4_1_I&amp;label=edit_getahead&amp;c_type=edit_getahead&amp;property=hp_in_pc&#39;);return false;"
+            data-relsrc="//im.rediff.com/210-170/getahead/2024/oct/08personal-accident-cover1.jpg"
             class="img"
-            href="https://www.rediff.com/movies/report/bollywood-looks-dishy-on-dussehra/20241014.htm"
+            href="https://www.rediff.com/getahead/report/why-you-need-personal-accident-cover/20241014.htm"
             ><img
-              alt="Bollywood Looks Dishy On Dussehra"
-              src="./Rediff/13dussehra-fashion-lead3.jpg"
+              alt="Why You Need Personal Accident Cover"
+              src="./Rediff/08personal-accident-cover1.jpg"
               width="196"
               height="170"
               style="opacity: 0.999"
@@ -1472,13 +1668,13 @@
           1 min read    </div>    </div>
         <h2 class="hdtitle">
           <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fbollywood-looks-dishy-on-dussehra%2F20241014.htm___&amp;position=5_4_T&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
-            href="https://www.rediff.com/movies/report/bollywood-looks-dishy-on-dussehra/20241014.htm"
-            >Bollywood Looks Dishy On Dussehra</a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fwhy-you-need-personal-accident-cover%2F20241014.htm___&amp;position=4_1_T&amp;label=edit_getahead&amp;c_type=edit_getahead&amp;property=hp_in_pc&#39;);return false;"
+            href="https://www.rediff.com/getahead/report/why-you-need-personal-accident-cover/20241014.htm"
+            >Why You Need Personal Accident Cover</a
           >
         </h2>
       </div>
-      <div class="nbox section-line section-line-bottom m-r-0" data-boxno="5_5" data-track="">
+      <div class="nbox section-line" data-boxno="5_5" data-track="">
         <p class="more">
           <a
             onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/getahead___&amp;position=5_5_L&amp;label=edit_getahead&amp;c_type=edit_getahead&amp;property=hp_in_pc&#39;);return false;"
@@ -1514,288 +1710,7 @@
           >
         </h2>
       </div>
-      <i class="clear"></i>
-      <div class="nbox section-line-bottom" data-boxno="6_1" data-track="">
-        <p class="more">
-          <a
-            class="backmarketnews marketnews"
-            href="https://money.rediff.com/news/share-market-news"
-            onclick="clickTrack(this);return false;"
-            >Market News</a
-          >
-        </p>
-        <h5>
-          <a
-            href="https://money.rediff.com/news/market/bengaluru-airport-city-launches-2-million-sq-ft-business-park/17068820241014"
-            onclick="clickTrack(this);return false;"
-            ><img
-              alt="Bengaluru Airport City Launches 2"
-              src="./Rediff/18airport7.jpg"
-              loading="lazy"
-              width="196"
-              height="170"
-          /></a>
-        </h5>
-        <div class="story-date-time roboto-condensed add-flex gap-15">
-          <div class="story-date" title="02 Jan, 2019 00:00:00">
-          1 years ago    </div>
-          <div class="story-time">
-          1 min read    </div>    </div>
-        <h2 class="hdtitle">
-          <a
-            href="https://money.rediff.com/news/market/bengaluru-airport-city-launches-2-million-sq-ft-business-park/17068820241014"
-            onclick="clickTrack(this);return false;"
-            >Bengaluru Airport City Launches 2 Million Sq. Ft. Business Park</a
-          >
-        </h2>
-      </div>
-      <div class="nbox section-line section-line-bottom" data-boxno="6_2" data-track="">
-        <p class="more">
-          <a
-            class="backmarketnews marketnews"
-            href="https://money.rediff.com/news/share-market-news"
-            onclick="clickTrack(this);return false;"
-            >Market News</a
-          >
-        </p>
-        <h5>
-          <a
-            href="https://money.rediff.com/news/market/ratan-tata-a-leader-who-cared-for-employees-amp-dogs-n-chandrasekaran/17066520241014"
-            onclick="clickTrack(this);return false;"
-            ><img
-              alt="Ratan Tata: A Leader Who Cared for"
-              src="./Rediff/29bombay-house7.jpg"
-              
-              width="196"
-              height="170"
-          /></a>
-        </h5>
-        <div class="story-date-time roboto-condensed add-flex gap-15">
-          <div class="story-date" title="02 Jan, 2019 00:00:00">
-          1 years ago    </div>
-          <div class="story-time">
-          1 min read    </div>    </div>
-        <h2 class="hdtitle">
-          <a
-            href="https://money.rediff.com/news/market/ratan-tata-a-leader-who-cared-for-employees-amp-dogs-n-chandrasekaran/17066520241014"
-            onclick="clickTrack(this);return false;"
-            >Ratan Tata: A Leader Who Cared for Employees &amp;&amp;amp; Dogs -
-            N Chandrasekaran</a
-          >
-        </h2>
-      </div>
-      <div class="nbox section-line section-line-bottom" data-boxno="6_3" data-track="">
-        <p class="more">
-          <a
-            class="backmarketnews marketnews"
-            href="https://money.rediff.com/news/share-market-news"
-            onclick="clickTrack(this);return false;"
-            >Market News</a
-          >
-        </p>
-        <h5>
-          <a
-            href="https://money.rediff.com/news/market/d-mart-stock-plunges-9-after-disappointing-earnings/17065520241014"
-            onclick="clickTrack(this);return false;"
-            ><img
-              alt="D-Mart Stock Plunges 9% After"
-              src="./Rediff/22dmart.jpg"
-              
-              width="196"
-              height="170"
-          /></a>
-        </h5>
-        <div class="story-date-time roboto-condensed add-flex gap-15">
-          <div class="story-date" title="02 Jan, 2019 00:00:00">
-          1 years ago    </div>
-          <div class="story-time">
-          1 min read    </div>    </div>
-        <h2 class="hdtitle">
-          <a
-            href="https://money.rediff.com/news/market/d-mart-stock-plunges-9-after-disappointing-earnings/17065520241014"
-            onclick="clickTrack(this);return false;"
-            >D-Mart Stock Plunges 9% After Disappointing Earnings</a
-          >
-        </h2>
-      </div>
-      <div class="nbox section-line section-line-bottom" data-boxno="6_4" data-track="">
-        <p class="more">
-          <a
-            class="backmarketnews marketnews"
-            href="https://money.rediff.com/news/share-market-news"
-            onclick="clickTrack(this);return false;"
-            >Market News</a
-          >
-        </p>
-        <h5>
-          <a
-            href="https://money.rediff.com/news/market/ai-regulation-scindia-calls-for-ethical-robust-framework/17065320241014"
-            onclick="clickTrack(this);return false;"
-            ><img
-              alt="AI Regulation: Scindia Calls for Ethical"
-              src="./Rediff/15jyotiraditya-scindia.jpg"
-              loading="lazy"
-              width="196"
-              height="170"
-          /></a>
-        </h5>
-        <div class="story-date-time roboto-condensed add-flex gap-15">
-          <div class="story-date" title="02 Jan, 2019 00:00:00">
-          1 years ago    </div>
-          <div class="story-time">
-          1 min read    </div>    </div>
-        <h2 class="hdtitle">
-          <a
-            href="https://money.rediff.com/news/market/ai-regulation-scindia-calls-for-ethical-robust-framework/17065320241014"
-            onclick="clickTrack(this);return false;"
-            >AI Regulation: Scindia Calls for Ethical &amp; Robust Framework</a
-          >
-        </h2>
-      </div>
-      <div class="nbox section-line section-line-bottom m-r-0" data-boxno="6_5" data-track="">
-        <p class="more">
-          <a
-            class="backmarketnews marketnews"
-            href="https://money.rediff.com/news/share-market-news"
-            onclick="clickTrack(this);return false;"
-            >Market News</a
-          >
-        </p>
-        <h5>
-          <a
-            href="https://money.rediff.com/news/market/sensex-nifty-rise-on-positive-global-trends-pti/17064820241014"
-            onclick="clickTrack(this);return false;"
-            ><img
-              alt="Sensex, Nifty Rise on Positive Global"
-              src="./Rediff/27bse4.jpg"
-              loading="lazy"
-              width="196"
-              height="170"
-          /></a>
-        </h5>
-        <div class="story-date-time roboto-condensed add-flex gap-15">
-          <div class="story-date" title="02 Jan, 2019 00:00:00">
-          1 years ago    </div>
-          <div class="story-time">
-          1 min read    </div>    </div>
-        <h2 class="hdtitle">
-          <a
-            href="https://money.rediff.com/news/market/sensex-nifty-rise-on-positive-global-trends-pti/17064820241014"
-            onclick="clickTrack(this);return false;"
-            >Sensex, Nifty Rise on Positive Global Trends - PTI</a
-          >
-        </h2>
-      </div>
-      <i class="clear"></i>
-      <div class="nbox" data-boxno="7_1" data-track="">
-        <p class="more">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/business___&amp;position=7_1_L&amp;label=edit_business&amp;c_type=edit_business&amp;property=hp_in_pc&#39;);return false;"
-            class="backbusiness business"
-            href="https://www.rediff.com/business"
-            >business</a
-          >
-        </p>
-        <h5>
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Fcolumn%2Fajay-shah-high-time-india-resists-real-estate-mania%2F20241014.htm___&amp;position=7_1_I&amp;label=edit_business&amp;c_type=edit_business&amp;property=hp_in_pc&#39;);return false;"
-            data-relsrc="//im.rediff.com/210-170/money/2024/jul/23real-estate.gif"
-            class="img"
-            href="https://www.rediff.com/business/column/ajay-shah-high-time-india-resists-real-estate-mania/20241014.htm"
-            ><img
-              alt="High Time India Resists Real Estate Mania"
-              src="./Rediff/23real-estate.gif"
-              width="196"
-              height="170"
-              style="opacity: 0.999"
-          /></a>
-        </h5>
-        <div class="story-date-time roboto-condensed add-flex gap-15">
-          <div class="story-date" title="02 Jan, 2019 00:00:00">
-          1 years ago    </div>
-          <div class="story-time">
-          1 min read    </div>    </div>
-        <h2 class="hdtitle">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Fcolumn%2Fajay-shah-high-time-india-resists-real-estate-mania%2F20241014.htm___&amp;position=7_1_T&amp;label=edit_business&amp;c_type=edit_business&amp;property=hp_in_pc&#39;);return false;"
-            href="https://www.rediff.com/business/column/ajay-shah-high-time-india-resists-real-estate-mania/20241014.htm"
-            >High Time India Resists Real Estate Mania</a
-          >
-        </h2>
-      </div>
-      <div class="nbox section-line" data-boxno="7_2" data-track="">
-        <p class="more">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/sports___&amp;position=7_2_L&amp;label=edit_sports&amp;c_type=edit_sports&amp;property=hp_in_pc&#39;);return false;"
-            class="backsports sports"
-            href="https://www.rediff.com/sports"
-            >sports</a
-          >
-        </p>
-        <h5>
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fsports%2Fspecial%2Frafael-nadals-india-connections%2F20241012.htm___&amp;position=7_2_I&amp;label=edit_sports&amp;c_type=edit_sports&amp;property=hp_in_pc&#39;);return false;"
-            data-relsrc="//im.rediff.com/210-170/sports/2015/dec/12rafa-deepika.jpg"
-            class="img"
-            href="https://www.rediff.com/sports/special/rafael-nadals-india-connections/20241012.htm"
-            ><img
-              alt="Rafael Nadal&#39;s India Connections"
-              src="./Rediff/12rafa-deepika.jpg"
-              width="196"
-              height="170"
-              style="opacity: 0.999"
-          /></a>
-        </h5>
-        <div class="story-date-time roboto-condensed add-flex gap-15">
-          <div class="story-date" title="02 Jan, 2019 00:00:00">
-          1 years ago    </div>
-          <div class="story-time">
-          1 min read    </div>    </div>
-        <h2 class="hdtitle">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fsports%2Fspecial%2Frafael-nadals-india-connections%2F20241012.htm___&amp;position=7_2_T&amp;label=edit_sports&amp;c_type=edit_sports&amp;property=hp_in_pc&#39;);return false;"
-            href="https://www.rediff.com/sports/special/rafael-nadals-india-connections/20241012.htm"
-            >Rafael Nadal's India Connections</a
-          >
-        </h2>
-      </div>
-      <div class="nbox section-line" data-boxno="7_3" data-track="">
-        <p class="more">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/movies___&amp;position=7_3_L&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
-            class="backmovies movies"
-            href="https://www.rediff.com/movies"
-            >movies</a
-          >
-        </p>
-        <h5>
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Frani-kajols-beautiful-sindoor-khela%2F20241014.htm___&amp;position=7_3_I&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
-            data-relsrc="//im.rediff.com/210-170/movies/2024/oct/12durga-puja-sindoor-khela-lead2.jpg"
-            class="img"
-            href="https://www.rediff.com/movies/report/rani-kajols-beautiful-sindoor-khela/20241014.htm"
-            ><img
-              alt="Rani-Kajol&#39;s Beautiful Sindoor Khela"
-              src="./Rediff/12durga-puja-sindoor-khela-lead2.jpg"
-              width="196"
-              height="170"
-              style="opacity: 0.999"
-          /></a>
-        </h5>
-        <div class="story-date-time roboto-condensed add-flex gap-15">
-          <div class="story-date" title="02 Jan, 2019 00:00:00">
-          1 years ago    </div>
-          <div class="story-time">
-          1 min read    </div>    </div>
-        <h2 class="hdtitle">
-          <a
-            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Frani-kajols-beautiful-sindoor-khela%2F20241014.htm___&amp;position=7_3_T&amp;label=edit_movies&amp;c_type=edit_movies&amp;property=hp_in_pc&#39;);return false;"
-            href="https://www.rediff.com/movies/report/rani-kajols-beautiful-sindoor-khela/20241014.htm"
-            >Bougainvillea Movie Review</a
-          >
-        </h2>
-      </div>
-      <div class="nbox section-line" data-boxno="7_4" data-track="">
+        <div class="nbox section-line" data-boxno="7_4" data-track="">
         <p class="more">
           <a
             onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/getahead___&amp;position=7_4_L&amp;label=edit_getahead&amp;c_type=edit_getahead&amp;property=hp_in_pc&#39;);return false;"
@@ -1831,7 +1746,11 @@
           >
         </h2>
       </div>
-      <div class="nbox section-line m-r-0" data-boxno="7_5" data-track="">
+     
+    </div>
+
+    <div id="business" class="videos">
+      <div class="nbox" data-boxno="7_5" data-track="">
         <p class="more">
           <a
             onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/business___&amp;position=7_5_L&amp;label=edit_business&amp;c_type=edit_business&amp;property=hp_in_pc&#39;);return false;"
@@ -1867,7 +1786,186 @@
           >
         </h2>
       </div>
+      <div class="nbox section-line" data-boxno="7_1" data-track="">
+        <p class="more">
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/business___&amp;position=7_1_L&amp;label=edit_business&amp;c_type=edit_business&amp;property=hp_in_pc&#39;);return false;"
+            class="backbusiness business"
+            href="https://www.rediff.com/business"
+            >business</a
+          >
+        </p>
+        <h5>
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Fcolumn%2Fajay-shah-high-time-india-resists-real-estate-mania%2F20241014.htm___&amp;position=7_1_I&amp;label=edit_business&amp;c_type=edit_business&amp;property=hp_in_pc&#39;);return false;"
+            data-relsrc="//im.rediff.com/210-170/money/2024/jul/23real-estate.gif"
+            class="img"
+            href="https://www.rediff.com/business/column/ajay-shah-high-time-india-resists-real-estate-mania/20241014.htm"
+            ><img
+              alt="High Time India Resists Real Estate Mania"
+              src="./Rediff/23real-estate.gif"
+              width="196"
+              height="170"
+              style="opacity: 0.999"
+          /></a>
+        </h5>
+        <div class="story-date-time roboto-condensed add-flex gap-15">
+          <div class="story-date" title="02 Jan, 2019 00:00:00">
+          1 years ago    </div>
+          <div class="story-time">
+          1 min read    </div>    </div>
+        <h2 class="hdtitle">
+          <a
+            onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Fcolumn%2Fajay-shah-high-time-india-resists-real-estate-mania%2F20241014.htm___&amp;position=7_1_T&amp;label=edit_business&amp;c_type=edit_business&amp;property=hp_in_pc&#39;);return false;"
+            href="https://www.rediff.com/business/column/ajay-shah-high-time-india-resists-real-estate-mania/20241014.htm"
+            >High Time India Resists Real Estate Mania</a
+          >
+        </h2>
+      </div>
+  </div>
+  <div id="travel" class="videos">
+    <div 
+    id="native_0"
+    class="nbox"
+    data-boxno="4_5"
+    data-track=""
+    style="display: block"
+  >
+    <p class="more">
+      <a
+        href="https://shopping.rediff.com/shopping/travel.html"
+        class="backshop travel"
+        onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://shopping.rediff.com/shopping/travel.html?sc_cid=inhome_cls_travel-products_4_5_L___&amp;position=4_5_L&amp;label=travel-products&amp;c_type=shopping&amp;c_id=&amp;meta=&amp;property=hp_in_pc&#39;);return false;"
+        >TRAVEL PRODUCTS</a
+      >
+    </p>
+    <h5>
+      <a
+        href="https://shopping.rediff.com/shopping/travel.html"
+        class="img"
+        data-relsrc="https://imshopping.rediff.com/hourlydeal/img/image_210X170_travel.jpg"
+        onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://shopping.rediff.com/shopping/travel.html?sc_cid=inhome_cls_travel-products_4_5_I___&amp;position=4_5_I&amp;label=travel-products&amp;c_type=shopping&amp;c_id=&amp;meta=&amp;property=hp_in_pc&#39;);return false;"
+        ><img
+          alt="TRAVEL PRODUCTS"
+          src="./Rediff/image_210X170_travel.jpg"
+          style="max-width: 210px; opacity: 0.999"
+      /></a>
+    </h5>
+    <div class="story-date-time roboto-condensed add-flex gap-15">
+      <div class="story-date" title="02 Jan, 2019 00:00:00">
+      1 years ago    </div>
+      <div class="story-time">
+      1 min read    </div>    </div>
+    <h2 class="hdtitle">
+      <a
+        href="https://shopping.rediff.com/shopping/travel.html"
+        onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://shopping.rediff.com/shopping/travel.html?sc_cid=inhome_cls_travel-products_4_5_T___&amp;position=4_5_T&amp;label=travel-products&amp;c_type=shopping&amp;c_id=&amp;meta=&amp;property=hp_in_pc&#39;);return false;"
+        >Live your dreams. Discover new places.</a
+      >
+    </h2>
+  </div>
+  </div>
+
+  <div id="sports" class="videos">
+    <div class="nbox" data-boxno="7_2" data-track="">
+      <p class="more">
+        <a
+          onclick="trackURL(&#39;https://track.rediff.com/click?url=___https://www.rediff.com/sports___&amp;position=7_2_L&amp;label=edit_sports&amp;c_type=edit_sports&amp;property=hp_in_pc&#39;);return false;"
+          class="backsports sports"
+          href="https://www.rediff.com/sports"
+          >sports</a
+        >
+      </p>
+      <h5>
+        <a
+          onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fsports%2Fspecial%2Frafael-nadals-india-connections%2F20241012.htm___&amp;position=7_2_I&amp;label=edit_sports&amp;c_type=edit_sports&amp;property=hp_in_pc&#39;);return false;"
+          data-relsrc="//im.rediff.com/210-170/sports/2015/dec/12rafa-deepika.jpg"
+          class="img"
+          href="https://www.rediff.com/sports/special/rafael-nadals-india-connections/20241012.htm"
+          ><img
+            alt="Rafael Nadal&#39;s India Connections"
+            src="./Rediff/12rafa-deepika.jpg"
+            width="196"
+            height="170"
+            style="opacity: 0.999"
+        /></a>
+      </h5>
+      <div class="story-date-time roboto-condensed add-flex gap-15">
+        <div class="story-date" title="02 Jan, 2019 00:00:00">
+        1 years ago    </div>
+        <div class="story-time">
+        1 min read    </div>    </div>
+      <h2 class="hdtitle">
+        <a
+          onclick="trackURL(&#39;https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fsports%2Fspecial%2Frafael-nadals-india-connections%2F20241012.htm___&amp;position=7_2_T&amp;label=edit_sports&amp;c_type=edit_sports&amp;property=hp_in_pc&#39;);return false;"
+          href="https://www.rediff.com/sports/special/rafael-nadals-india-connections/20241012.htm"
+          >Rafael Nadal's India Connections</a
+        >
+      </h2>
+    </div>
+  </div>
+</div></div>
+  <script>
+      function showSection(event, section) {
+          event.preventDefault();
+
+          // Remove 'active' class from all tabs
+          var allTabs = document.querySelectorAll('.sub-navbar a');
+          allTabs.forEach(function(tab) {
+              tab.classList.remove('active');
+          });
+
+          // Add 'active' class to the clicked tab
+          event.target.classList.add('active');
+
+          // Remove 'active' class from all sections
+          var allSections = document.querySelectorAll('.videos');
+          allSections.forEach(function(sec) { // Renamed loop variable from section to sec
+              sec.classList.remove('active');
+          });
+
+          // Add 'active' class to the corresponding section
+          var activeSection = document.getElementById(section);
+          activeSection.classList.add('active');
+      }
+
+      // Initial load - show the 'cricket' section as active
+      document.addEventListener("DOMContentLoaded", function() {
+          var firstTab = document.querySelector('.sub-navbar a.active');  // Select the first tab as active
+          showSection({ preventDefault: () => {}, target: firstTab }, 'cricket');
+      });
+  </script>
+
+<!--Tab Section ends-->
+
+
+
+
+
+
+      
+  
+    
+     
+   
+    
+
+    
+     
+     
+   
+      
       <i class="clear"></i>
+
+  
+     
+ 
+
+      
+   
+  
+    
+
       <h3 class="sub-section-heading news">NEWS</h3>
       <div class="secstorybox news source-sans-3-400">
         
@@ -2810,6 +2908,7 @@
           >
         </h2>
       </div>
+      <i class="clear"></i>
       <div class="nbox" data-boxno="12_4" data-track="">
         <p class="more">
           <a
@@ -3540,6 +3639,7 @@
     </div>  </div>
     <!-- red_container ends -->
 
+</div>
 <footer>
   <div class="footer-note">
   <div>
@@ -3609,7 +3709,7 @@
         >Terms of use</a
       >
       - <a href="https://www.rediff.com/grievances.html">Grievances</a>
-    </div></div>
+    </div>
     <!-- footer ends -->
 
 </html>
