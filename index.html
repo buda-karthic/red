@@ -41,8 +41,11 @@
 
   <link href="https://fonts.googleapis.com/css?family=Oranienbaum%3Aregular%7CSource+Sans+3%3Aregular%2C300%7CRoboto+Condensed%3Aregular%2C700%7CLibre+Caslon+Text%3Aregular&display=swap&ver=6.7.0.1a" rel="stylesheet">
     <link rel="stylesheet" href="./stylesheet.css" media="screen" />
-
-
+    <link rel="stylesheet" href="./stylesheetMobile.css" media="screen" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
 
     <style>
       .div_subscribe_nl {
@@ -324,6 +327,148 @@
    
   </head>
   <body>
+
+
+    <!--Mobile Markup Starts-->
+    <nav class="navbarMobile">
+      
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <div class="sidebar" id="sidebar">
+      <span class="close-btn" id="closeBtn">&times;</span>
+      <div id="div_menu" class="div_menu">
+        <div id="subsectionhand" class="menuhand">
+          <span>News</span>
+          <i class="fas fa-chevron-down plusicon"></i>
+        </div>
+        <div id="subsections" class="submenu">
+          <a href="https://m.rediff.com/movies"
+            ><i class="fas fa-film"></i>Movies</a
+          >
+          <a href="https://m.rediff.com/news"
+            ><i class="fas fa-newspaper"></i>News</a
+          >
+          <a href="https://m.rediff.com/business"
+            ><i class="fas fa-briefcase"></i>Business</a
+          >
+          <a href="https://m.rediff.com/sports"
+            ><i class="fas fa-basketball-ball"></i>Sports</a
+          >
+          <a href="https://m.rediff.com/cricket"
+            ><i class="fas fa-baseball-ball"></i>Cricket</a
+          >
+          <a href="https://m.rediff.com/getahead"
+            ><i class="fas fa-lightbulb"></i>Get Ahead</a
+          >
+          <a href="https://realtime.rediff.com/news"
+            ><i class="fas fa-clock"></i>Realtime News</a
+          >
+        </div>
+        <div id="businesshand" class="menuhand">
+          <span>Business</span>
+          <i class="fas fa-chevron-down plusicon"></i>
+        </div>
+        <div id="businesshandtips" class="submenu">
+
+          <a href="https://m.rediff.com/fashion/headlines"
+            ><i class="fa-solid fa-envelope-open"></i>Headlines</a
+          >
+          <a href="https://m.rediff.com/travel-living/headlines"
+            ><i class="fas fa-plane"></i>Columns</a
+          >
+          <a href="https://m.rediff.com/gadget/headlines"
+            ><i class="fas fa-mobile-alt"></i>specials</a
+          >
+          <a href="https://m.rediff.com/wedding/headlines"
+            ><i class="fa-solid fa-coins"></i>Personal finance</a
+          >
+          <a href="https://m.rediff.com/wedding/headlines"
+          ><i class="fas fa-ring"></i>Interviews</a
+        >
+        </div>
+        <div id="tipshand" class="menuhand">
+          <span>Tips</span>
+          <i class="fas fa-chevron-down plusicon"></i>
+        </div>
+        <div id="submenutips" class="submenu">
+
+          <a href="https://m.rediff.com/fashion/headlines"
+            ><i class="fas fa-tshirt"></i>Fashion Tips</a
+          >
+          <a href="https://m.rediff.com/travel-living/headlines"
+            ><i class="fas fa-plane"></i>Lifestyle Tips</a
+          >
+          <a href="https://m.rediff.com/gadget/headlines"
+            ><i class="fas fa-mobile-alt"></i>Gadget Tips</a
+          >
+          <a href="https://m.rediff.com/wedding/headlines"
+            ><i class="fas fa-ring"></i>Wedding Tips</a
+          >
+        </div>
+    
+        <a href="https://zarabol.rediff.com/"
+          ><i class="fas fa-comments"></i>Discussion</a
+        >
+      </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const sidebar = document.getElementById("sidebar");
+      const closeBtn = document.getElementById("closeBtn");
+      const overlay = document.getElementById("overlay");
+      const subsectionsToggle = document.getElementById("subsectionhand");
+      const subsections = document.getElementById("subsections");
+      const tipshand = document.getElementById("tipshand");
+      const businesshand = document.getElementById("businesshand");
+      const businesshandtips = document.getElementById("businesshandtips");
+      const submenutips = document.getElementById("submenutips");
+
+      // Open sidebar when hamburger is clicked
+      hamburger.addEventListener("click", () => {
+        sidebar.classList.add("active");
+        overlay.classList.add("active");
+      });
+
+      // Close sidebar when close button is clicked
+      closeBtn.addEventListener("click", () => {
+        sidebar.classList.remove("active");
+        overlay.classList.remove("active");
+      });
+
+      // Close sidebar when clicking outside of it (on the overlay)
+      overlay.addEventListener("click", () => {
+        sidebar.classList.remove("active");
+        overlay.classList.remove("active");
+      });
+
+      // Toggle News submenu
+      subsectionsToggle.addEventListener("click", () => {
+        subsections.style.display =
+          subsections.style.display === "block" ? "none" : "block";
+        subsectionsToggle.querySelector(".plusicon").classList.toggle("rotate");
+      });
+
+      // Toggle Tips submenu
+      tipshand.addEventListener("click", () => {
+        submenutips.style.display =
+          submenutips.style.display === "block" ? "none" : "block";
+        tipshand.querySelector(".plusicon").classList.toggle("rotate");
+      });
+
+          // Toggle Tips submenu
+          businesshand.addEventListener("click", () => {
+            businesshandtips.style.display =
+            businesshandtips.style.display === "block" ? "none" : "block";
+        businesshand.querySelector(".plusicon").classList.toggle("rotate");
+      });
+    </script>
+    <!--Mobile Markup Ends-->
 
     <div class="topbar">
       <div class="content-width roboto-condensed">

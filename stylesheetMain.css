@@ -1285,3 +1285,6 @@ footer {
 .nbox:has(.backgurus.gurus) .more a {
   font-size: 0;
 }
+.navbarMobile {
+  display: none;
+}
