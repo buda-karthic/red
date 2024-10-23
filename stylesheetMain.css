@@ -1203,7 +1203,7 @@ footer .signup input[type="submit"] {
     padding-bottom: 20px;
   }
   .topbar #signin_info {
-    padding-block: 12px;
+    padding-block: 12px !important;
   }
   .logobar .topicons,
   .navbar {
