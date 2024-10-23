@@ -1266,6 +1266,7 @@ footer .signup input[type="submit"] {
   .nbox h5,
   .nbox h5 img {
     height: auto;
+    width: 122px;
   }
   .section-line:before,
   .section-line-bottom:after {
