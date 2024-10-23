@@ -1241,11 +1241,27 @@ footer .signup input[type="submit"] {
     height: auto;
   }
 
-  .nbox {
-    margin: 0 !important;
-    width: 50%;
-    height: 230px;
-    padding: 2px;
+  .nbox,
+  .bigstory {
+    display: grid;
+    grid-auto-columns: auto auto;
+    grid-gap: 15px;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+  .nbox ~ .nbox {
+    margin-top: 15px;
+  }
+  .nbox h5,
+  .bigstory h5 {
+    grid-area: 1 / 1 / span 2;
+  }
+  .nbox .story-date-time,
+  .bigstory .story-date-time {
+    grid-area: 1 / 2;
+    margin-top: 0;
   }
   .nbox h5,
   .nbox h5 img {
@@ -1257,6 +1273,8 @@ footer .signup input[type="submit"] {
   }
   .hdtitle {
     height: 3.8em;
+    margin-top: 0;
+    padding-top: 0 !important;
   }
   .footer {
     padding-block: 20px;
