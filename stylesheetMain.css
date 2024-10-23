@@ -1209,10 +1209,10 @@ footer .signup input[type="submit"] {
   .navbar {
     display: none;
   }
-  .red_container_main,
+  #red_container_main,
   footer,
   .footer-wrapper {
-    padding-inline: 10px;
+    padding-inline: 15px;
   }
   .add-flex {
     flex-wrap: wrap;
