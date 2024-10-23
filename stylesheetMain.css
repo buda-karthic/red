@@ -1147,6 +1147,57 @@ footer {
   margin-top: 60px;
 }
 
+.footer-note {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 30px;
+}
+
+.footer-note p ~ p {
+  margin-top: 10px;
+}
+
+footer .signup {
+  font-family: "Roboto Condensed";
+}
+
+footer .signup h3 {
+  font-size: 1.35em;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+footer .signup input[type="email"] {
+  height: 40px;
+  padding: 0 15px;
+  border: 0;
+
+  max-width: 100%;
+  box-sizing: border-box;
+}
+footer .signup input[type="email"]::placeholder {
+  color: #999;
+}
+
+footer .signup input[type="submit"] {
+  background: #000;
+  color: #fff;
+  font-weight: 700;
+  border: 0;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-note > div ~ div {
+    border-left: 1px solid #d0d0d0;
+    padding-left: 30px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .logobar {
     padding-bottom: 20px;
@@ -1190,7 +1241,7 @@ footer {
   .nbox {
     margin: 0 !important;
     width: 50%;
-    height: 219px;
+    height: 230px;
     padding: 2px;
   }
   .nbox h5,
@@ -1217,6 +1268,9 @@ footer {
   }
   .sub-navbar::-webkit-scrollbar {
     width: 10px;
+  }
+  .footer-note {
+    grid-template-columns: 1fr;
   }
 }
 
