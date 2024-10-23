@@ -1256,7 +1256,7 @@ footer .signup input[type="submit"] {
   }
   .nbox h5,
   .bigstory h5 {
-    grid-area: 1 / 1 / span 2;
+    grid-area: 1 / 1 / span 3;
   }
   .nbox .story-date-time,
   .bigstory .story-date-time {
@@ -1273,11 +1273,11 @@ footer .signup input[type="submit"] {
     content: none;
   }
   .hdtitle {
-    height: 3.8em;
+    height: 5.8em;
     margin-top: 0;
     padding: 0 0 0 25px !important;
     line-height: normal;
-    background-position: left top -4px;
+    background-position: left top -4px !important;
   }
   .footer {
     padding-block: 20px;
