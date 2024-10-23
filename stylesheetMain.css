@@ -1273,11 +1273,14 @@ footer .signup input[type="submit"] {
     content: none;
   }
   .hdtitle {
-    height: 5.8em;
+    height: 4.5em;
     margin-top: 0;
     padding: 0 0 0 25px !important;
     line-height: normal;
     background-position: left top -4px !important;
+  }
+  .nbox:has(.backgurus.gurus) .more {
+    bottom: -11px !important;
   }
   .footer {
     padding-block: 20px;
