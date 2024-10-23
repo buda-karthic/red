@@ -1113,19 +1113,22 @@
 
 
   <div class="sub-navbar">
-    <a href="#" onclick="showSection(event, 'cricket')" class="active cricket">Cricket</a>
+    <a href="#" onclick="showSection(event, 'movies')" class="movies active">Movies </a>
     <a href="#" onclick="showSection(event, 'market')" class="marketnews">Market News</a>
-    <a href="#" onclick="showSection(event, 'movies')" class="movies">Movies </a>
+    <a href="#" onclick="showSection(event, 'business')" class="business">BUSINESS </a>
+    <a href="#" onclick="showSection(event, 'cricket')" class=" cricket">Cricket</a>
+    
+    
     <a href="#" onclick="showSection(event, 'videos-clips')" class="videos">Videos </a>
     <a href="#" onclick="showSection(event, 'getahead')" class="getahead">Get Ahead </a>
-    <a href="#" onclick="showSection(event, 'business')" class="business">BUSINESS </a>
+    
     <a href="#" onclick="showSection(event, 'travel')" class="travel">Travel </a>
     <a href="#" onclick="showSection(event, 'sports')" class="sports">sports </a>
   </div>
 
   <!-- Content Section -->
   <div class="content">
-    <div id="cricket" class="videos active">
+    <div id="cricket" class="videos">
       <div class="nbox" data-boxno="3_1" data-track="">
         <p class="more">
           <a
@@ -1412,7 +1415,7 @@
       </div>
     </div>
 
-    <div id="movies" class="videos">
+    <div id="movies" class="videos active">
       <div class="nbox" data-boxno="3_2" data-track="">
         <p class="more">
           <a
@@ -2080,7 +2083,7 @@
       // Initial load - show the 'cricket' section as active
       document.addEventListener("DOMContentLoaded", function() {
           var firstTab = document.querySelector('.sub-navbar a.active');  // Select the first tab as active
-          showSection({ preventDefault: () => {}, target: firstTab }, 'cricket');
+          showSection({ preventDefault: () => {}, target: firstTab }, 'movies');
       });
   </script>
 
