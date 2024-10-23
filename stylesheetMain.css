@@ -1202,6 +1202,9 @@ footer .signup input[type="submit"] {
   .logobar {
     padding-bottom: 20px;
   }
+  .topbar #signin_info {
+    padding-block: 12px;
+  }
   .logobar .topicons,
   .navbar {
     display: none;
