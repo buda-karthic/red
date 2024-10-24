@@ -392,25 +392,55 @@
         >
         </div>
         <div id="tipshand" class="menuhand">
-          <span>Tips</span>
+          <span>Movies</span>
           <i class="fas fa-chevron-down plusicon"></i>
         </div>
         <div id="submenutips" class="submenu">
 
           <a href="https://m.rediff.com/fashion/headlines"
-            ><i class="fas fa-tshirt"></i>Fashion Tips</a
+            ><i class="fas fa-tshirt"></i>Headlines</a
           >
           <a href="https://m.rediff.com/travel-living/headlines"
-            ><i class="fas fa-plane"></i>Lifestyle Tips</a
+            ><i class="fas fa-plane"></i>Images</a
           >
           <a href="https://m.rediff.com/gadget/headlines"
-            ><i class="fas fa-mobile-alt"></i>Gadget Tips</a
+            ><i class="fas fa-mobile-alt"></i>Interviews</a
           >
           <a href="https://m.rediff.com/wedding/headlines"
-            ><i class="fas fa-ring"></i>Wedding Tips</a
+            ><i class="fas fa-ring"></i>Reviews</a
           >
+          <a href="https://m.rediff.com/wedding/headlines"
+          ><i class="fas fa-ring"></i>Web series</a
+        >
+        <a href="https://m.rediff.com/wedding/headlines"
+        ><i class="fas fa-ring"></i>Television</a
+      >
         </div>
-    
+        <div id="cricket" class="menuhand">
+          <span>Cricket</span>
+          <i class="fas fa-chevron-down plusicon"></i>
+        </div>
+        <div id="submenucricket" class="submenu">
+
+          <a href="https://m.rediff.com/fashion/headlines"
+            ><i class="fas fa-tshirt"></i>Headlines</a
+          >
+          <a href="https://m.rediff.com/travel-living/headlines"
+            ><i class="fas fa-plane"></i>Images</a
+          >
+          <a href="https://m.rediff.com/gadget/headlines"
+            ><i class="fas fa-mobile-alt"></i>Interviews</a
+          >
+          <a href="https://m.rediff.com/wedding/headlines"
+            ><i class="fas fa-ring"></i>Schedule</a
+          >
+          <a href="https://m.rediff.com/wedding/headlines"
+          ><i class="fas fa-ring"></i>Stats</a
+        >
+        <a href="https://m.rediff.com/wedding/headlines"
+        ><i class="fas fa-ring"></i>News</a
+      >
+        </div>
         <a href="https://zarabol.rediff.com/"
           ><i class="fas fa-comments"></i>Discussion</a
         >
@@ -428,6 +458,8 @@
       const businesshand = document.getElementById("businesshand");
       const businesshandtips = document.getElementById("businesshandtips");
       const submenutips = document.getElementById("submenutips");
+      const cricket = document.getElementById("cricket");
+      const submenucricket = document.getElementById("submenucricket");
 
       // Open sidebar when hamburger is clicked
       hamburger.addEventListener("click", () => {
@@ -466,6 +498,12 @@
             businesshandtips.style.display =
             businesshandtips.style.display === "block" ? "none" : "block";
         businesshand.querySelector(".plusicon").classList.toggle("rotate");
+      });
+
+      cricket.addEventListener("click", () => {
+            submenucricket.style.display =
+            submenucricket.style.display === "block" ? "none" : "block";
+        cricket.querySelector(".plusicon").classList.toggle("rotate");
       });
     </script>
     <!--Mobile Markup Ends-->
