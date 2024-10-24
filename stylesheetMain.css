@@ -216,13 +216,15 @@ a:hover {
 .navbarul > li > a {
   position: relative;
   padding: 5px 15px 5px 15px;
-  background: #e0e0e0;
+  font-weight: 500;
+  font-size: 16px;
 }
 .navbarul > .active > a {
-  border-bottom: 0;
   z-index: 100;
-  background: #f0f0f0;
+  background: #fff;
   font-weight: 500;
+  border: 1px solid #e0e0e0;
+  border-bottom: 0;
 }
 
 .navbarul li a {
@@ -246,11 +248,12 @@ a:hover {
   display: flex;
   gap: 30px;
   padding: 5px 15px;
-  background: #f0f0f0;
   flex-wrap: wrap;
+  border: 1px solid #e0e0e0;
 }
 .navbarul > li > ul > li a {
   font-size: 13.4px;
+  color: #9a9a9a;
 }
 
 .div_advt_bottom,
@@ -1028,7 +1031,7 @@ h2.time i {
 }
 
 *:has(.backnews.news) ~ .hdtitle {
-  background: url(./Rediff/news-s.svg) no-repeat left top 0px;
+  background: url(./Rediff/news.svg) no-repeat left top 0px;
   padding-left: 28px;
   background-size: 22px auto;
 }
@@ -1041,7 +1044,7 @@ h2.time i {
 
 *:has(.backcricket.cricket) ~ .hdtitle,
 .sub-navbar a.cricket {
-  background: url(./Rediff/cricket-s.svg) no-repeat left top 0px;
+  background: url(./Rediff/cricket.svg) no-repeat left top 0px;
   padding-left: 28px;
   background-size: 22px auto;
 }
@@ -1053,7 +1056,7 @@ h2.time i {
 
 *:has(.backmovies.movies) ~ .hdtitle,
 .sub-navbar a.movies {
-  background: url(./Rediff/movies-s.svg) no-repeat left top 0px;
+  background: url(./Rediff/movies.svg) no-repeat left top 0px;
   padding-left: 28px;
   background-size: 22px auto;
 }
@@ -1066,7 +1069,7 @@ h2.time i {
 
 *:has(.backbusiness.business) ~ .hdtitle,
 .sub-navbar a.business {
-  background: url(./Rediff/business-s.svg) no-repeat left top -3px;
+  background: url(./Rediff/business.svg) no-repeat left top -3px;
   padding-left: 28px;
   background-size: 22px auto;
 }
@@ -1079,7 +1082,7 @@ h2.time i {
 
 *:has(.backgetahead.getahead) ~ .hdtitle,
 .sub-navbar a.getahead {
-  background: url(./Rediff/getahead-s.svg) no-repeat left top -2px;
+  background: url(./Rediff/getahead.svg) no-repeat left top -2px;
   padding-left: 28px;
   background-size: 22px auto;
 }
@@ -1092,14 +1095,14 @@ h2.time i {
 
 *:has(.backsports.sports) ~ .hdtitle,
 .sub-navbar a.sports {
-  background: url(./Rediff/sport-s.svg) no-repeat left top -2px;
+  background: url(./Rediff/sport.svg) no-repeat left top -2px;
   padding-left: 28px;
   background-size: 22px auto;
 }
 
 *:has(.backvid.vid) ~ .hdtitle,
 .sub-navbar a.videos {
-  background: url(./Rediff/video-s.svg) no-repeat left top -2px;
+  background: url(./Rediff/video.svg) no-repeat left top -2px;
   padding-left: 28px;
   background-size: 22px auto;
 }
@@ -1111,21 +1114,21 @@ h2.time i {
 }
 
 *:has(.backgurus.gurus) ~ .hdtitle {
-  background: url(./Rediff/gurus-s.png) no-repeat left top 0;
+  background: url(./Rediff/gurus.png) no-repeat left top 0;
   padding-left: 23px;
   background-size: 16px auto;
 }
 
 *:has(.backmarketnews.marketnews) ~ .hdtitle,
 .sub-navbar a.marketnews {
-  background: url(./Rediff/market-s.svg) no-repeat left top -1px;
+  background: url(./Rediff/market.svg) no-repeat left top -1px;
   padding-left: 28px;
   background-size: 22px auto;
 }
 
 *:has(.backshop.travel) ~ .hdtitle,
 .sub-navbar a.travel {
-  background: url(./Rediff/travel-s.svg) no-repeat left top -1px;
+  background: url(./Rediff/travel.svg) no-repeat left top -1px;
   padding-left: 28px;
   background-size: 22px auto;
 }
@@ -1280,7 +1283,9 @@ footer .signup input[type="submit"] {
     background-position: left top -4px !important;
   }
   .nbox:has(.backgurus.gurus) .more {
-    bottom: -11px !important;
+    bottom: 11px !important;
+    right: auto !important;
+    left: 131px;
   }
   .footer {
     padding-block: 20px;
@@ -1366,11 +1371,14 @@ footer .signup input[type="submit"] {
   position: absolute;
   right: 0;
   z-index: 1;
-  bottom: 27px;
+  bottom: 46px;
 }
 
 .nbox:has(.backgurus.gurus) .more a {
   font-size: 0;
+  line-height: 1;
+  margin: 0;
+  border: 0;
 }
 .navbarMobile {
   display: none;
