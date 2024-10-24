@@ -451,9 +451,21 @@ a:hover {
 .more {
 }
 
-.more span,
-.more a,
 .sub-navbar__container .sub-navbar > a {
+  color: #000;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14.4px;
+  line-height: 20.16px;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  transition: all 0.65s ease-out;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.more span,
+.more a {
   color: #9a9a9a;
   text-transform: uppercase;
   font-family: "Roboto Condensed", sans-serif;
